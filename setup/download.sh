@@ -1,4 +1,4 @@
-pacman --needed -S git
+sudo pacman --needed -S git
 cd ~
 git clone https://github.com/moss-oliver/cfg tmp
 mv tmp/.git .
