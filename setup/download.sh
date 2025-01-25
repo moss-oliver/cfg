@@ -5,9 +5,11 @@ mv tmp/.git .
 rm -rf tmp
 git reset --hard
 
-chmod +x ./setup/setup.sh
-chmod +x ./setup/install_pacman.sh
-chmod +x ./setup/install_paru.sh
-chmod +x ./setup/config_kde.sh
+cd setup
 
-./setup/setup.sh
+chmod +x ./setup.sh
+chmod +x ./install_pacman.sh
+chmod +x ./install_paru.sh
+chmod +x ./config_kde.sh
+
+./setup.sh
