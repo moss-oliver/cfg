@@ -1,8 +1,6 @@
-In order to install, do the following:
+In order to install, simply do the following in a shell:
 
 ```bash
-cd $HOME
-git init
-git remote add origin git@github.com:moss-oliver/cfg.git
-git reset --hard origin/master
+cd ~
+wget -O - https://raw.githubusercontent.com/moss-oliver/cfg/main/setup/download.sh | sudo bash
 ```

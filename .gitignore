@@ -8,6 +8,10 @@
 !README.md
 
 # Or these folders.
+!setup/
+!setup/**
+
 !.config/
+
 !.config/alacritty
 !.config/alacritty/**
